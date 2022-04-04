@@ -1,4 +1,4 @@
-// PIRMEIRA FORMA
+// PIRMEIRA FORMA.
 function mostraNome() { // Função.
     return 'Rodrigo';
 }
@@ -17,7 +17,7 @@ if(teste === 'function') { // if para saber se recebeNome é uma função ou nã
 
 console.log(recebeNome);
 
-// SEGUNDA FORMA
+// SEGUNDA FORMA.
 function showName() {
     return 'João';
 }
@@ -28,7 +28,7 @@ if(showName instanceof Function) { // if para saber se showName é uma função 
 
 console.log(nome);
 
-// TESTE UTILIZANDO ARRAYS
+// TESTE UTILIZANDO ARRAYS.
 var carros = ['Gol', 'Uno', 'Corolla'];
 var auto = new Object();
 

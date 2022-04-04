@@ -1,12 +1,6 @@
-/*function mostraNome() {
-    console.log('Rodrigo declaração');
-}
-
-mostraNome();*/
-
 var mostrarNome = function(nome, sobreNome) {
-    var qtd = arguments.length; // arguments é um array.
-    //console.log(arguments.length);
+    var qtd = arguments.length; // Arguments é um array.
+
     console.log(arguments[0]);
     var nomeCompleto = '';
 
@@ -16,8 +10,6 @@ var mostrarNome = function(nome, sobreNome) {
     }
 
     console.log(nomeCompleto);
-    //return qtd;
 }
 
 mostrarNome('Rodrigo', 'Lima', 'Rocha');
-//console.log(nome);

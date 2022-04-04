@@ -32,6 +32,3 @@ var pessoaCriada = Object.create(roberto, { // Herda as propriedades de makePess
 console.log(roberto.getIdade());
 console.log(pessoaCriada);
 console.log(pessoaCriada.getIdade());
-
-//console.log(rodrigo, roberto);
-//console.log(Object.getPrototypeOf(roberto));

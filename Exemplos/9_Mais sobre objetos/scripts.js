@@ -37,18 +37,7 @@ Object.defineProperties(pessoa, {
     }
 });
 
-// Vai acessar os atributos da propriedade.
-// Parâmetros: objeto e a proprieade desejada.
-//var atributo = Object.getOwnPropertyDescriptor(pessoa, 'nome');
-
-//Object.preventExtensions(pessoa); // Evita a adição de novas proprieades ao objeto.
-//console.log(Object.isExtensible(pessoa));
-
-/*Object.seal(pessoa); // Verifica se o objeto está selado ou não.
-console.log(Object.isSealed(pessoa)); // Mostra true ou false.
-pessoa.endereco = 'Rua Tal';
-console.log(pessoa);*/
-
 Object.freeze(pessoa);
+
 pessoa.nome = 'José';
 console.log(Object.isFrozen(pessoa));

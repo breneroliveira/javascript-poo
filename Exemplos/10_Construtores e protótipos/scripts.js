@@ -18,6 +18,7 @@ function Pessoa(nome, idade, sexo) { // Função construtora.
             }
         }
     });
+    
     Object.preventExtensions(this);
 }
 

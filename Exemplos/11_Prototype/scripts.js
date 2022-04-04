@@ -19,18 +19,6 @@ Pessoa.prototype = {
     }
 }
 
-/*Pessoa.prototype.getNome = function() {
-    return this.nome;
-}
-
-Pessoa.prototype.getIdade = function() {
-    return this.idade;
-}
-
-Pessoa.prototype.getSexo = function() {
-    return this.sexo;
-}*/
-
 var rodrigo = new Pessoa('Rodrigo', 21, 'M');
 var joao = new Pessoa('João', 18, 'M');
 

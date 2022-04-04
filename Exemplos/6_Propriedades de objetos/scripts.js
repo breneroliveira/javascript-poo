@@ -21,7 +21,3 @@ var pessoa = {
 console.log(pessoa.idade); // Nesse formato, está usando um getter.
 console.log(pessoa.state);
 console.log(pessoa.nome = 'José'); // Sem getter e setter.
-
-// Formas implícitas de usar getter e setter.
-/*pessoa._idade = 21;
-console.log(pessoa._idade);*/

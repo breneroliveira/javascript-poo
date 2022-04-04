@@ -8,12 +8,7 @@ var endereco = null;
 var primeiroChar = nome.charAt(2);
 var varNomeMaiusculo = nome.toLocaleUpperCase();
 
-//console.log(!!existe);
-//console.log(valor.toFixed(2));
-
-/**/
-
-// TIPOS DE REFERÊNCIA (CONSTRUÇÃO DE OBJETOS)
+// TIPOS DE REFERÊNCIA (CONSTRUÇÃO DE OBJETOS).
 var pessoa = new Object(); // Usou o método construtor para criar o objeto.
 
 var pessoa2 = {

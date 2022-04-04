@@ -41,8 +41,6 @@ Object.defineProperty(pessoa, "nome", { // Define se a propriedade é ou não co
 
 delete pessoa.nome;
 
-//pessoa.nome = 'João';
-
 console.log(pessoa);
 console.log(pessoa.propertyIsEnumerable("idade"));
 

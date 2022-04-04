@@ -17,13 +17,10 @@ var pessoa = (function(nome, idade, sexo) {
     }
 
     var metodos = { // Privado, são métodos privilagiados, precisam do return. A integridade é mantida.
-        // Membro privilegiado.
+        // Membros privilegiados.
         getNome:getNome, // O membro privado é dosponibilizado pela prorpiedade pública getNome.
         getIdade:getIdade,
         getSexo:getSexo
-        /*getNome:function() { // É possível acessar a propriedade privada nome por conta da função.
-            return nome;
-        }*/
     }
 
     Object.freeze(metodos); // Impede que as propriedades sejam alteradas.
